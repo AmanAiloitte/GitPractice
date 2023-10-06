@@ -14,7 +14,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.inputFeild {
+.inputField {
   padding: 4px 10px;
   width: 230px;
   font-size: 15px;
@@ -41,4 +41,9 @@ body {
 .Button:hover {
   cursor: pointer;
   background-color: blue;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
 }
