@@ -28,7 +28,7 @@ body {
   gap: 10px;
 }
 
-.SubmitButton {
+.Button {
   width: 100px;
   padding: 6px;
   background: #052ba8;
@@ -38,7 +38,7 @@ body {
   border-radius: 5px;
 }
 
-.SubmitButton:hover {
+.Button:hover {
   cursor: pointer;
   background-color: blue;
 }

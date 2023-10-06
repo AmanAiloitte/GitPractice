@@ -7,4 +7,7 @@ function submit() {
   document.getElementById("password").value = "";
 }
 
-function reset() {}
+function reset() {
+  document.getElementById("showEmail").innerHTML = "";
+  document.getElementById("showPassword").innerHTML = "";
+}
