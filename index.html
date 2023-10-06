@@ -3,22 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Git Practice</title>
   </head>
   <body>
-    <h1></h1>
-    <div>
+    <div class="formField">
       <label class="label" for="email">Email</label>
       <input
-        class="inputField"
+        class="inputFeild"
         type="email"
         name="email"
         id="email"
         placeholder="Enter Your Email"
+        value=""
       />
       <label class="label" for="password"> Password </label>
-      <input class="inputFeild" type="password" name="password" id="password" />
+      <input
+        class="inputFeild"
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter Your Password"
+        value=""
+      />
+      <div style="display: flex; justify-content: space-between">
+        <button class="Button" onclick="submit()">Submit</button>
+        <button class="Button" onclick="reset()">Reset</button>
+      </div>
     </div>
+    <div>
+      <span>Your Email is : </span>
+      <span id="showEmail"></span>
+    </div>
+    <div>
+      <span>Your Password is : </span>
+      <span id="showPassword"></span>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
